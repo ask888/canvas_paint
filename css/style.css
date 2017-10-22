@@ -1,0 +1,39 @@
+/* basic styles */
+.clearfix:after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.canvas-wrapper{
+    width: 600px;
+    margin: 20px auto;
+}
+.paint-title{
+    font: 25px/30px "Comic Sans MS";
+    color: #481119;
+    text-align: center;
+}
+
+#canvas{
+    border: 1px solid;
+    float: right;
+}
+#colourPicker{
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.toolbar, #clearAll{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #2b2b2b;
+    background: #2b2b2b;
+    opacity: 0.8;
+    margin-bottom: 5px;
+    color: #f6f6f6;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
